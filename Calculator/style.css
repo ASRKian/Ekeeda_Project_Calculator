@@ -1,0 +1,71 @@
+* {
+    /* margin: 0px;
+    padding: 0px; */
+    background-color: black;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+#heading {
+    color: yellow;
+
+}
+
+.text-mid {
+    text-align: center;
+}
+
+#inp {
+    display: flex;
+    justify-content: center;
+}
+
+#inp input {
+    width: 287px;
+    height: 42px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.operators {
+    background-color: yellow;
+}
+
+
+#row {
+    display: grid;
+    grid-row-gap: 30px;
+    grid-column-gap: 20px;
+    justify-content: center;
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-template-rows: 70px 70px 70px 70px 70px;
+}
+
+
+input {
+    color: white;
+    font-size: 30px;
+    text-align: right;
+}
+
+button {
+    background-color: white;
+    margin: 5px 0px 0px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+#CButton {
+    background-color: red;
+}
+
+#eqButton {
+    background-color: rgb(43, 244, 43);
+}
